@@ -1,0 +1,22 @@
+@import './variables.scss';
+
+.main {
+	font-family: 'Inter', sans-serif;
+	background-color: $main-bg;
+	color: $main-color;
+}
+
+.menuContainer {
+    width: 15.625rem;
+    padding: 0.3125rem 1.25rem;
+    border-right: 0.125rem solid $soft-bg;
+  
+    // @include lg{
+    //   width: max-content;
+    // }
+  }
+  
+  .contentContainer {
+    padding: 0.3125rem 1.25rem;
+    width: 100%;
+  }
