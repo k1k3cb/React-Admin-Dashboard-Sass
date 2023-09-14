@@ -1,0 +1,64 @@
+// @import "../../styles/responsive.scss";
+
+.topBox {
+  h1 {
+    margin-bottom: 1.25rem;
+
+    // @include xxl{
+    //   font-size: 24px;
+    // }
+  }
+
+  .list {
+    .listItem {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.875rem;
+
+      .user {
+        display: flex;
+        gap: 1.25rem;
+
+        img {
+          width: 2.5rem;
+          height: 2.5rem;
+          border-radius: 50%;
+          object-fit: cover;
+
+        //   @include xxl{
+        //     display: none;
+        //   }
+        //   @include lg{
+        //     display: block;
+        //   }
+        }
+
+        .userTexts {
+          display: flex;
+          flex-direction: column;
+          gap: 0.3125rem;
+
+          .username {
+            font-size: 0.875rem;
+            font-weight: 500;
+          }
+          .email {
+            font-size: 0.75rem;
+
+            // @include xxl{
+            //   display: none;
+            // }
+            // @include lg{
+            //   display: block;
+            // }
+          }
+        }
+      }
+
+      .amount {
+        font-weight: 500;
+      }
+    }
+  }
+}
