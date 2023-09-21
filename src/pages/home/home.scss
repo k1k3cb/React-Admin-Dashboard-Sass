@@ -1,5 +1,5 @@
 @import "../../styles/variables.scss";
-// @import "../../styles/responsive.scss";
+@import "../../styles/responsive.scss";
 
 .home {
   display: grid;
@@ -8,23 +8,23 @@
   grid-auto-rows: minmax(11.25rem, auto);
   grid-auto-flow: dense;
 
-  // @include xl{
-  //   grid-template-columns: repeat(3, 1fr);
-  // }
-  // @include lg{
-  //   grid-template-columns: repeat(2, 1fr);
-  // }
-  // @include md {
-  //   grid-template-columns: repeat(1, 1fr);
-  // }
-  // @include sm {
-  //   grid-auto-rows: minmax(7.5rem, auto);
-  // }
+  @include xl{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @include lg{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include md {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  @include sm {
+    grid-auto-rows: minmax(7.5rem, auto);
+  }
 
   .box {
-    padding: 20px;
-    border-radius: 10px;
-    border: 2px solid $soft-bg;
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+    border: 0.125rem solid $soft-bg;
   }
 
   .box1 {
@@ -40,8 +40,8 @@
     grid-column: span 2;
     grid-row: span 2;
 
-    // @include md {
-    //   display: none;
-    // }
+    @include md {
+      display: none;
+    }
   }
 }

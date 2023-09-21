@@ -1,4 +1,4 @@
-// @import "../../styles/responsive.scss";
+@import "../../styles/responsive.scss";
 
 .pieChartBox {
 	height: 100%;
@@ -7,9 +7,9 @@
 	justify-content: space-between;
 
 	h1 {
-		// @include xxl{
-		//   font-size: 24px;
-		// }
+		@include xxl{
+		  font-size: 1.5rem;
+		}
 	}
 
 	.chart {
@@ -24,23 +24,23 @@
 	.options {
 		display: flex;
 		justify-content: space-between;
-		gap: 10px;
-		font-size: 14px;
+		gap: 0.625rem;
+		font-size: 0.875rem;
 
 		.option {
 			display: flex;
 			flex-direction: column;
-			gap: 10px;
+			gap: 0.625rem;
 			align-items: center;
 
 			.title {
 				display: flex;
-				gap: 10px;
+				gap: 0.625rem;
 				align-items: center;
 
 				.dot {
-					width: 10px;
-					height: 10px;
+					width: 0.625rem;
+					height: 0.625rem;
 					border-radius: 50%;
 				}
 			}
