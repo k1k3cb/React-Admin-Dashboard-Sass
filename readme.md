@@ -1,6 +1,6 @@
 # React-Admin-Dashboard-Sass 
 
-![Imagen del proyecto](https://github.com/k1k3cb/Rock-Paper-Scissors-game/blob/main/src/assets/project_captures/home-game.jpg?raw=true)
+![Imagen del proyecto](https://github.com/k1k3cb/React-Admin-Dashboard-Sass/blob/main/public/screenShoots/image1.png)
 
 ## Ejemplo en vivo
  
@@ -10,27 +10,25 @@
 
 ## Descripción 📑
 
-Este proyecto consiste en el desarrollo del juego del **"piedra papel tijera"**. Desde la home de la aplicación puedes elegir la modalidad del juego:
-- Piedra-papel-tijera
-- Piedra-papel-tijera-lagarto-spock
+Este proyecto consiste en el desarrollo del un **"panel de administración"** usando Sass para darle estilos.
 
-El juego iniciará una vez el usuario seleccione una opción del juego (piedra-papel-tijera....lagarto-spock)
+
+Las funcuionalidades actuales son:
+-  listar usuarios y productos 
+- consultar la ficha individual de cada uno
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
-Mendiante este proyecto he aprendido a importar imágenes desde Javascript con Vite, además de la lógica de comparar opciones de un usuario contra la opción aleatoria del PC.
+He aprendido a usar la librería [Recharts](https://recharts.org/en-US/)  y la creación de layouts con React.
 
 ## Tecnologías 🛠
 
 <!-- Iconos sacados de: https://github.com/hendrasob/badges/blob/master/README.md y https://github.com/alexandresanlim/Badges4-README.md-Profile -->
 
-[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://es.wikipedia.org/wiki/HTML5)
-[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://es.wikipedia.org/wiki/CSS)
-[![BEM](https://img.shields.io/badge/BEM-100000?style=for-the-badge&logo=BEM&logoColor=white&labelColor=535151&color=535151)](https://getbem.com/)
+
 [![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
-[![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://es.wikipedia.org/wiki/JavaScript)
 [![VITE](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
-[![PostCSS](https://img.shields.io/badge/postcss-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white)](https://postcss.org/)
+[![REACT](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://postcss.org/)
 
 
 
@@ -40,11 +38,11 @@ Mendiante este proyecto he aprendido a importar imágenes desde Javascript con V
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/k1k3cb/Rock-Paper-Scissors-game/blob/main/src/assets/project_captures/simple-mode.jpg?raw=true)
+![Captura del proyecto](https://github.com/k1k3cb/React-Admin-Dashboard-Sass/blob/main/public/screenShoots/image2.png)
 
-![Captura del proyecto](https://github.com/k1k3cb/Rock-Paper-Scissors-game/blob/main/src/assets/project_captures/advanced-mode.jpg?raw=true)
+![Captura del proyecto](https://github.com/k1k3cb/React-Admin-Dashboard-Sass/blob/main/public/screenShoots/image3.png)
 
-![Captura del proyecto](https://github.com/k1k3cb/Rock-Paper-Scissors-game/blob/main/src/assets/project_captures/game-result.jpg?raw=true)
+![Captura del proyecto](https://github.com/k1k3cb/React-Admin-Dashboard-Sass/blob/main/public/screenShoots/image4.png)
 
 
 
